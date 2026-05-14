@@ -10,7 +10,7 @@ O **Viajei**, por razões apropriadas, é indicado para maiores de 14 (quartorze
 O viajei será uma plataforma digital, em que as pessoas podem compartilhar suas experiências em formato de texto e deixar suas recomendações para outras pessoas.
 
 ## Tecnologias:
-
+<div style="background-color: #f7c"> 
 - FRONT-END:
   - HTML;
   - CSS;
@@ -18,7 +18,7 @@ O viajei será uma plataforma digital, em que as pessoas podem compartilhar suas
 - BACK-END:
   - Python ou Node ou PHP;
   - SQL;
-
+</div>
 ## Como rodar:
 
 TODO:
