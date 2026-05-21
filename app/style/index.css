@@ -3,72 +3,71 @@
 }
 
 body {
-    height: 100vh; /*altura*/
-    width: 100vw; /*largura*/
-    margin: 0; /*margem*/
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4ecd8;
 }
 
 #container {
-    width: 80vw;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
-    background-color: #f0f0f0;
 }
 
-header {
-    width: 100%;
-    height: 80px;
+#container nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 10%;
+    width: 100%;
 }
 
-header img {
-    max-height: 105%;
-    margin: auto 0;
-    background-image: url(../images/test-image.avif),
-                        linear-gradient(rgba(252, 252, 220, 0.5), rgba(252, 252, 220, 0.5));
+#container nav img{
+    max-width: 200px;
 }
 
 .link-do-cabecalho {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500; 
+    margin-right: 15px;
+    color: #5e594e;
     text-decoration: none;
-    color: black;
-    font-size: 15pt;
-    padding: 10px 20px;
-    /* background-color: ; */
-    border-radius: 10px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20pt;
 }
 
-.link-do-cabecalho:hover {
-    background-color: aqua;
-}
-
-#container section {
-    width: 100%;
-    height: 80vh;
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-b {
-    font-family: fantasy;
+h1 {
+    font-style: italic;
+    font-family: 'Georgia', serif;
     font-size: 48pt;
-    line-height: 200px;
-    padding: 20px;
-    box-shadow: 5px 5px 5px 5px pink;
+    color: #5e594e;
+    text-decoration: underline;
 }
 
-b:hover {
-    box-shadow: 5px 5px 5px 5px blue;
-    transition: box-shadow 2s;
-}
-p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25pt;
+main {
+    margin: 10% 0 0 10%;
 }
 
+main p {
+    /* font-style: italic; */
+    font-family: 'Georgia', serif;
+    font-size: 20pt;
+    color: #5e594e;
+}
+
+
+main a {
+    color: #4a4538;          /* Muted, dark ink-brown */
+    text-decoration: none;   /* Remove harsh default underline */
+    border-bottom: 1px solid #c9bda5; /* Subtle, paper-colored underline */
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+    font-family: 'Georgia', serif;
+    font-size: 20pt;
+}
+
+main a:hover {
+    color: #2c2a26;          /* Darker shade of ink */
+    border-bottom: 1px solid #2c2a26; /* Deepens the underline */
+}
 
